@@ -56,7 +56,7 @@ begin
 				resetpc <= '0' ;
 				--pc ?  
 				loadpc <= '1' ; 
-			  loadIR <= '1' ;
+			        loadIR <= '1' ;
  				writeReg <= '0' ; 
  				immediate <= '0';
 				next_state <= S3;
@@ -70,8 +70,8 @@ begin
 				controlBusMux <= "01" ; 
 				resetpc <= '0' ;
 				--pc ?  
-				loadpc <= '1' ; 
-			  loadIR <= '1' ;
+				loadpc <= '0' ; 
+			        loadIR <= '1' ;
  				writeReg <= '0' ; 
  				immediate <= '0';
 			  next_state <= S4;
